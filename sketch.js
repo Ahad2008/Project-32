@@ -68,11 +68,10 @@ function setup() {
   slingShot = new Slingshot(this.polygon,{x:100,y:200});
 
 }
-function draw() {
-  //background(56,44,44); 
+function draw() { 
   if(backgroundImg)
     background(backgroundImg);
-  //Engine.update(engine);
+  Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
   fill("lightyellow");
